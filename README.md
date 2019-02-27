@@ -2,4 +2,20 @@
 
 Read /docs/requirements.md for instructions.
 
-If you finish early, check #5 in ["If you finish early" - requirements.md](https://github.com/bootcamp-s19/project1-campaign-website/blob/master/docs/requirements.md#if-you-finish-early)
+Candidate: King Arthur (VP Lancelot)
+
+MVP:
+    Must have
+    Could have
+    Should have
+    Won't have
+
+Personas:
+    Informed
+    Uninformed
+    Lazy, accidentally on site
+    Passionate, wants to get involved
+
+Stories:
+
+
