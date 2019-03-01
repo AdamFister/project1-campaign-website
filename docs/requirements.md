@@ -61,22 +61,22 @@ It is okay if your project has more files and more directories, but at the least
 1. Website must be responsive
 2. Website must contain at least [3 distinct organisms](https://patternlab.io/) that you create using the following:
     1. Choose at least Four Bootstrap Components to include from this list:
-        * Badge
-        * Button
-        * Caption
-        * Card
-        * Collapse
+        * Badge.
+        * Button.
+        * Caption.
+        * Card.
+        * Collapse.
         * Icon
-        * List Group
-        * Media Object
+        * List Group.
+        * Media Object.
         * Popovers
-        * Tooltip
+        * Tooltip.
     2. Augment Five Bootstrap Utilities to suit the needs of your website
-3. A few (more than 3) prominent pictures of your candidate
-4. A table displaying important information for voters
-5. A call to action - election day is November 5!
-6. Scroll to an anchor tag
-7. Punch out to a website
+3. A few (more than 3) prominent pictures of your candidate.
+4. A table displaying important information for voters.
+5. A call to action - election day is November 5!.
+6. Scroll to an anchor tag.
+7. Punch out to a website.
 
 ### Remember to push to Github!
 
@@ -93,11 +93,11 @@ You will also need to include a Procfile so Heroku knows how to start your serve
 1. Continue to add content and pages to your site and improve the styling.
 2. Implement bootstrap components from this list that will enhance your site
     * Carousel
-    * Jumbotron
-    * Nav/Navbar
+    * Jumbotron.
+    * Nav/Navbar.
     * Progress
     * Spinner
-    * Jumbotron
+    
 3. Augment more Bootstrap Utilities to enhance your website
 4. Download Bootstrap and compile via Sass instead of using CDN
 5. Add info to your projects README.md (don't use the supplied .md file for your project, these are just instructions for you) [README.md Best Practices](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)

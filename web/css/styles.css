@@ -1,7 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
     color: rgb(0, 0, 0);
   }
   h1 {
@@ -17,7 +16,7 @@ body {
   img {
     margin-left: auto;
     margin-right: auto;
-    width: 8em;
+    width: 8rem;
     display: block;
   }
 
@@ -25,15 +24,15 @@ body {
     color: rgb(255, 255, 255);  
   }
 
-
   .largephoto {
       display: block;
       position: relative;
       width: 50%;
       border: none;
   }
-  p {
-      padding: 25px;
+  p.small {
+      padding: 2%;
+      font-size: 1rem;
   }
   .center {
     text-align: center;
@@ -49,5 +48,9 @@ body {
   td {
     word-wrap: break-word;
   }
+  .totheleft {
+    text-align: left;
+  }
+
  
   
