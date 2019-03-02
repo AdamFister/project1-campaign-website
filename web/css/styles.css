@@ -62,8 +62,8 @@ body {
 
   .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   background-size: 100%, 100%;
   background-image: none;
   top: 50%;
@@ -74,13 +74,13 @@ body {
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 55px;
+  font-size: 5em;
   color: black;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 55px;
+  font-size: 5em;
   color: black;
 }
 
@@ -92,5 +92,5 @@ body {
  .red {
    color:rgb(192, 37, 37);
    font-family: 'Times New Roman', Times, serif;
-   font-size: 5rem;
+   font-size: 3rem;
  }
