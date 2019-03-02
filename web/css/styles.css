@@ -3,11 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
   }
+
   h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #000000 ;
     text-align: center;
   }
+
   h2 {
     font-family: 'Times New Roman', Times, serif;
     color: #000000 ;
@@ -30,27 +32,34 @@ body {
       width: 50%;
       border: none;
   }
+
   p.small {
       padding: 2%;
       font-size: 1rem;
   }
+
   .center {
     text-align: center;
   }
+
   .card-title {
     text-align: center;
     font-size: 18px;
   }
+
   .card-text {
     text-align: center;
     font-size: 25px;
   }
+
   td {
     word-wrap: break-word;
   }
+
   .totheleft {
     text-align: left;
   }
+
   .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
@@ -75,5 +84,13 @@ body {
   color: black;
 }
 
- 
+ .jumbotron {
+  background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F765877054%2F960x0.jpg%3Ffit%3Dscale");
+  background-size: cover;
+ }
   
+ .red {
+   color:rgb(192, 37, 37);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 5rem;
+ }
