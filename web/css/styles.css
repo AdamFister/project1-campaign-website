@@ -109,3 +109,15 @@ body {
   color: white;
   text-align: center;
 }
+
+ul.navbar-nav a:hover { 
+  color: rgb(255, 255, 255) !important; 
+}
+
+.navbar-nav>li.nav-item.active>a.nav-link{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+}
+
+
+
