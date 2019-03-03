@@ -26,10 +26,13 @@
     body { color: red} -->
 <!-- </style> -->
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
         <ul class="navbar-nav">
+                <a class="navbar-brand" href="#top">
+                        <img src="images/Star Trek TNG logo.jpg" alt="Logo" style="width:25px;">
+                      </a>
             <li class="nav-item">
                 <a class="nav-link" href="#Contribute">Contribute</a>
             </li>
@@ -37,22 +40,29 @@
                 <a class="nav-link" href="#Volunteer">Volunteer</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#Endorse">Endorse</a>
-            </li>
+                    <a class="nav-link" href="#Comments">Comments</a>
+                </li>
             <li class="nav-item">
                 <a class="nav-link" href="#UpcomingEvents">Upcoming Events</a>
             </li>
+            
             <li class="nav-item">
-                <a class="nav-link" href="#Comments">Comments</a>
-            </li>
+                    <a class="nav-link" href="#Endorsements">Endorsements</a>
+                </li>
         </ul>
+        
+        
     </nav>
-
-
+    <br>
+    <br>
+    
+    <section class="top">
+            
     <h1 class=bg-danger>Captain Jean-Luc Picard for Constable</h1>
 
-    <img src="images/picard_large.jpg" class="largephoto" alt="Picard">
 
+    <img src="images/picard_large.jpg" class="largephoto" alt="Picard">
+</section>
     <div class="container">
         <section id="Picard">
             <div class="row">
@@ -168,9 +178,9 @@
         </div>
     </section>
 
-    <section id="Endorse">
+    <section id="Comments">
         <div class="container-fluid">
-            <h2 class=bg-info>Endorse</h2>
+            <h2 class=bg-info>Comments</h2>
             <div class="row">
                 <div class="col-sm-5">
                     <div class="card">
@@ -178,13 +188,14 @@
                         <div class="card-body">
                             <h4 class="card-title">Kind words for the Captain</h4>
                             <p class="card-text">Use the form below to endorse Captain Picard for Constable</p>
+                            
                             <form action="/action_page.php">
                                 <div class="form-group">
                                     <label for="comment">Comment:</label>
                                     <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
                                 </div>
-                                <!--<button type="submit" class="btn btn-primary">Submit</button>-->
-                            </form>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                           </form>
                         </div>
                     </div>
                 </div>
@@ -252,8 +263,9 @@
         <a tabindex="0" data-toggle="popover" data-placement="bottom" data-trigger="focus"
             data-content="Picard invented the Picard Maneuver!">Did you know...</a>
     </div>
-    <br>
     <section id="UpcomingEvents">
+    <br>
+    
         <div class="container table-responsive">
             <h2>Upcoming Events</h2>
             <table class="table table-bordered">
@@ -278,7 +290,7 @@
         </div>
     </section>
 
-    <section id="Comments">
+    <section id="Endorsements">
         <div class="container mt-3">
             <div class="media border p-3">
 
@@ -345,6 +357,8 @@
     </div>
 
     <br>
+    <div class="footer">
+            <br>
     <div class="center"><a href="#" class="btn btn-primary" role="button">Back to Top</a></div>
     <br>
     <p class="center">
@@ -352,16 +366,21 @@
                 class="badge badge-danger">Engage!</span></a>
     </p>
     <p class="center"><i class="fab fa-pied-piper-alt fa-2x"></i></p>
+    <br>
+</div>
+
     <script>
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
         });
-    </script>
-    <script>
+    
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
         });
+        
+        
     </script>
+
 
 </body>
 
