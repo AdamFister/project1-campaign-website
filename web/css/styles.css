@@ -7,14 +7,14 @@ body {
   }
 
   h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Spectral SC', serif;
     color: #000000 ;
     text-align: center;
     margin: 0;
   }
 
   h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Spectral SC', Times, serif;
     color: #000000 ;
   }
 
@@ -94,7 +94,7 @@ body {
   
  .red {
    color:rgb(192, 37, 37);
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Spectral SC', serif;
    font-size: 3rem;
  }
 
